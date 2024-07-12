@@ -1,0 +1,54 @@
+.sidebar  {
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 10px;
+    
+}
+
+.sidebar img {
+    width: 25px;
+    
+}
+
+.top {
+    display: inline-flex;
+    flex-direction: column;
+    
+    
+}
+.top img {
+    cursor: pointer;
+    
+}
+.top .newchat {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.chathistory {
+    margin-top: 15px;
+    padding: 5px;
+}
+.singlechat {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.bottom {
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+.newchat {
+    cursor: pointer;
+}
